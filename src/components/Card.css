@@ -1,0 +1,39 @@
+.card {
+    background: linear-gradient(135deg, #d0d9ff, #e4e8ff); 
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(93, 95, 239, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    min-height: 100px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 16px;
+    color: #5D5FEF;
+
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #5D5FEF;
+
+}
+
+.card-title {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #1A1A40 ;
+}
+

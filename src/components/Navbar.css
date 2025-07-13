@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #f4f4f4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 230px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.welcome-text {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #555;
+    text-align: center;
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+
+    display: inline;
+}
+
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #333;
+    height: calc(100vh - 200px);
+    justify-content: space-between;
+}
+
+.nav-links .link:last-child {
+    margin-top: auto;
+    bottom: 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    border-radius: 6px;
+}
+
+.link span {
+    color: #333;
+    font-weight: 500;
+}
+
+.link:hover {
+    background-color: #e6e6ff;
+    transform: scale(1.02);
+}
+
+.link.active {
+    background-color: #dcdcff;
+    font-weight: 600;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.edit-profile-link {
+    margin-top: auto;
+    padding-top: 20px;
+}
+.edit-icon {
+  width: 26px;
+  height: 26px;
+}

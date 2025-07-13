@@ -1,0 +1,97 @@
+.transactions-page {
+  margin-left: 270px;
+  width: calc(100% - 270px);
+  padding: 30px;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  color: #1e1e1e;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+}
+
+
+.transactions-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #5D5FEF;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  display: inline-block;
+}
+
+.transactions-heading::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(to right, #5D5FEF, #a7a9f5);
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+
+.tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.tabs button {
+  padding: 10px  30px;
+  background-color: #eaeaff;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 12px;
+  color: #5D5FEF;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+.tabs button:hover {
+  background-color: #dcdcff;
+}
+
+.tabs button.active {
+  background-color: #5D5FEF;
+  color: white;
+}
+
+.group-date {
+  font-weight: 600;
+  color: #666;
+  margin: 25px 0 10px;
+  font-size: 15px;
+}
+
+.chart-container {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px 25px;
+  margin: 30px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.chart-total {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1e1e1e;
+}
+
+.chart-range {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 4px;
+}

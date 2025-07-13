@@ -1,0 +1,83 @@
+
+.transaction-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.transaction-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transaction-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.category-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.left h4{
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.right{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.expense {
+  color: #ff5b5b;
+}
+
+.income {
+  color: #2ecc71;
+}
+
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.delete-btn img {
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.delete-btn img:hover {
+  opacity: 1;
+}
+

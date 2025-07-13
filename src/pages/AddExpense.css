@@ -1,0 +1,100 @@
+.add-expense-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.add-expense-form {
+  width: 100%;
+  max-width: 480px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: 'Inter', sans-serif;
+}
+
+.amount-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 600;
+  color: #5D5FEF;
+  border: 2px solid #eee;
+  border-radius: 15px;
+  padding: 20px;
+  background: #f9f9ff;
+}
+
+.amount-box .currency {
+  margin-right: 10px;
+}
+
+.amount-box input {
+  border: none;
+  font-size: 48px;
+  color: #5D5FEF;
+  background: transparent;
+  width: 100%;
+  text-align: center;
+  outline: none;
+}
+
+.add-expense-form input[type="text"],
+.add-expense-form input[type="date"] {
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  background: #f2f2f2;
+  outline: none;
+}
+
+
+.add-expense-form button {
+  padding: 14px;
+  font-size: 18px;
+  background: linear-gradient(to right, #5D5FEF, #FF7EB3);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-expense-form button:hover {
+  opacity: 0.9;
+}
+
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.add-expense-form select {
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: linear-gradient(to right, #f7f7f9, #eef1f9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  outline: none;
+  color: #5D5FEF;
+  font-family: 'Inter', sans-serif;
+  appearance: none;
+  width: 100%;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 16px 16px;
+}
+
+.add-expense-form select:focus {
+  border-color: #5D5FEF;
+  box-shadow: 0 0 0 3px rgba(93, 95, 239, 0.2);
+}

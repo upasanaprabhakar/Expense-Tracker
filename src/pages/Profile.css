@@ -1,0 +1,120 @@
+.edit-profile-page {
+    margin-left: 270px;
+    width: calc(100% - 270px);
+    padding: 60px 40px;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.edit-profile-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #5D5FEF;
+    position: relative;
+    display: inline-block;
+}
+
+.edit-profile-heading::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(to right, #5D5FEF, #a7a9f5);
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    min-height: 400px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.input-group label {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #5D5FEF;
+
+}
+
+.input-group input {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #5D5FEF;
+}
+
+
+.save-btn {
+    background: linear-gradient(to right, #5D5FEF, #FF7EB3);
+    color: white;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    width: 100%;
+}
+
+.save-btn:hover {
+    opacity: 0.95;
+}
+
+
+
+.reset-btn {
+    background-color: rgba(244, 67, 54, 0.1);
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    margin-top: -65px;
+}
+
+.reset-btn:hover {
+    background-color: rgba(244, 67, 54, 0.2);
+    transform: scale(1.05);
+}
+
+.reset-icon {
+    width: 22px;
+    height: 22px;
+    display: block;
+    object-fit: contain;
+}
