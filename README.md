@@ -23,14 +23,13 @@
 <br />
 
 <section id="screenshots">
-  <h2 style="font-size: 44px;">🖼️ Screenshots</h2>
-  <h3 style="font-size: 28px;">📌 Dashboard</h3>
+  <h2 style="font-size: 28px;">📌 Dashboard</h2>
   <img src="https://github.com/user-attachments/assets/d3f70b04-7326-4ca4-ab17-1902e03727e9" alt="Dashboard Screenshot" width="800" />
-  <h3 style="font-size: 28px;">📌 Transactions</h3>
+  <h2 style="font-size: 28px;">📌 Transactions</h2>
   <img src="https://github.com/user-attachments/assets/b94a1c37-b6f9-425b-8a41-7af5442be1b3" alt="Transactions Screenshot" width="800" />
-  <h3 style="font-size: 28px;">📌 Add Expense</h3>
+  <h2 style="font-size: 28px;">📌 Add Expense</h2>
   <img src="https://github.com/user-attachments/assets/b2c76f23-7c8b-4e2d-afd9-2b68566c07df" alt="Add Expense Screenshot" width="800" />
-  <h3 style="font-size: 28px;">📌 Profile</h3>
+  <h2 style="font-size: 28px;">📌 Profile</h2>
   <img src="https://github.com/user-attachments/assets/9fb506da-c3cf-43c6-a95f-70b222d77454" alt="Profile Screenshot" width="800" />
 </section>
 
